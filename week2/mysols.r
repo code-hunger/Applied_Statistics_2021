@@ -1,8 +1,8 @@
 normData <- rnorm(10000,0,1)
 
-# median(normData)
-# mean(normData)
-# sd(normData)
+median(normData)
+mean(normData)
+sd(normData)
 
 cutoff <- median(normData) + 3 * mad(normData)
 uniData <- runif(1000, min = 0, max = 1)
